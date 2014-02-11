@@ -8,7 +8,7 @@
 
 - (void)modifyDisplayByAppendingString:(NSString *)string
 {
-    self.display.text = [self.display.text stringByAppendingString:[NSString stringWithFormat:@" %@ ", string]];
+    self.display.text = [self.display.text stringByAppendingString:[NSString stringWithFormat:@"%@", string]];
 }
 
 - (IBAction)buttonPressed:(id)sender
